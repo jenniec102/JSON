@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+html{
+  background-color: ghostwhite;
+  /* lightblue; */
+}
+
+body{
+  margin: 5vh 3vw 5vh 3vw;
+}
+
+.title{
+  grid-area: title;
+}
+
+.pic{
+  grid-area: pic;
+  max-width: 100%;
+}
+
+.desc{
+  grid-area: desc;
+  line-height: 2em;
+  text-align: left;
+}
+
+.vid{
+  grid-area: vid;
+  height: 315px;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  /* allowfullscreen: true;  */
+  /* title: "YouTube video player"; */
+  /* frameborder: 0;
+  allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; */
+}
+
+.section{
+  display: grid;
+  padding: 5vmin;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-row-gap: 5vmin;
+  grid-column-gap: 5vmin;
+  /* grid-template-areas: ". . . title title . . ."
+                       ". pic pic pic . . . . "
+                       ". pic pic pic desc desc desc . "
+                       ". pic pic pic desc desc desc . "
+                       ". pic pic pic . . . . "
+                       ". . vid vid vid vid . . "
+                       ". . vid vid vid vid . . "
+                       /* ". vid vid vid vid vid vid . " */
+                       /* ". . vid vid vid vid . . "; */
+   grid-template-areas: ". . title title . ."
+                        "pic pic pic . . ."
+                        "pic pic pic desc desc desc"
+                        "pic pic pic desc desc desc"
+                        "pic pic pic . . ."
+                        ". vid vid vid vid . "
+                        ". vid vid vid vid . "
+                        ". vid vid vid vid . ";
+
+
+}
