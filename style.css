@@ -16,6 +16,12 @@ body{
   margin: 5vh 3vw 5vh 3vw;
 }
 
+#content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3vmin;
+}
+
 .title{
   grid-area: title;
 }
@@ -33,40 +39,31 @@ body{
 
 .vid{
   grid-area: vid;
-  height: 315px;
+  height: 350px;
   width: 100%;
-  max-width: 100%;
   max-height: 100%;
-  /* allowfullscreen: true;  */
-  /* title: "YouTube video player"; */
-  /* frameborder: 0;
-  allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; */
 }
 
 .section{
   display: grid;
   padding: 5vmin;
+  justify-items: center;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
   grid-row-gap: 5vmin;
   grid-column-gap: 5vmin;
-  /* grid-template-areas: ". . . title title . . ."
-                       ". pic pic pic . . . . "
-                       ". pic pic pic desc desc desc . "
-                       ". pic pic pic desc desc desc . "
-                       ". pic pic pic . . . . "
-                       ". . vid vid vid vid . . "
-                       ". . vid vid vid vid . . "
-                       /* ". vid vid vid vid vid vid . " */
-                       /* ". . vid vid vid vid . . "; */
-   grid-template-areas: ". . title title . ."
-                        "pic pic pic . . ."
-                        "pic pic pic desc desc desc"
-                        "pic pic pic desc desc desc"
-                        "pic pic pic . . ."
-                        ". vid vid vid vid . "
-                        ". vid vid vid vid . "
-                        ". vid vid vid vid . ";
+  /* grid-template-areas: ". . title title . ."
+                      "pic pic pic desc desc desc"
+                      "pic pic pic desc desc desc"
+                      "pic pic pic desc desc desc"
+                      "pic pic pic desc desc desc"
+                      "vid vid vid vid vid vid "
+                      "vid vid vid vid vid vid "
+                      "vid vid vid vid vid vid "; */
+  grid-template-areas: ". . title title . ."
+                      "pic pic pic pic pic pic"
+                      "desc desc desc desc desc desc"
+                      "vid vid vid vid vid vid ";
 
 
 }

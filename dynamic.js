@@ -2,10 +2,6 @@
 
 let contentElement = document.getElementById("content");
 
-//<iframe width="560" height="315" src="https://www.youtube.com/embed/W0uWS6CnC2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- //possibly make this like three images  or an image menu
-//#FF5733
-//"https://m.media-amazon.com/images/M/MV5BNWQ1ZmM3MTQtNTVhZC00MWVlLWI5ZjgtYmZiYWQxZjUzZWM0XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
 // colors: pastel pink, sky blue = B7E2F3; red = FB4848
 let shows = [
   {
@@ -20,7 +16,7 @@ let shows = [
     "title" : "Haikyu!!",
     "trailer" : "https://www.youtube.com/embed/JOGp2c7-cKc",
     "image" : "https://thenerdstash.com/wp-content/uploads/2015/03/Haikyuu.jpg",
-    "description" : "Hinata Shouyou, a short middle school student, found his passion in volleyball. Despite not having anyone to team up with or properly play a game, Hinata works towards getting better at volleyball any chance he gets. While he didn't have many chances in middle school to play, he made sure to join a high school with a volleyball team. Excited to play on a team, he is met with Tobio Kageyama, a rising player - the same player he had vowed to defeat in middle school. They can't help bickering with each other, but will have to learn to work together so that they can both continue to play volleyball on a team.",
+    "description" : "Hinata Shouyou, a short middle school student, found his passion in volleyball. Despite not having many chances in middle school to play, he made sure to join a high school with a volleyball team. Excited to finally play on a team, he is met with Tobio Kageyama, a rising player - the same player he had vowed to defeat in middle school. They can't help bickering with each other, but will have to learn to work together so that they can both continue to play volleyball.",
     "descrip_source" : "https://www.imdb.com/title/tt3398540/plotsummary",
     "background_color" : "#FFC300"
   },
@@ -49,12 +45,12 @@ let shows = [
     "background_color" : "#B7E2F3"
   },
   {
-    "title" : "Parks and Recreation",
-    "trailer" : "https://www.youtube.com/embed/W0uWS6CnC2o",
-    "image" : "https://www.kveller.com/wp-content/uploads/2018/03/91S6KAPCeLL._RI_.jpg",
-    "description" : "When filthy-rich video store magnate Johnny Rose and his family suddenly find themselves broke, they are forced to leave their pampered lives to regroup and rebuild their empire from within the rural city limits of their only remaining asset - Schitt's Creek, an armpit of a town they once bought as a joke. -IMDB",
-    "descrip_source" : "https://www.imdb.com/title/tt3526078/plotsummary",
-    "background_color" : "#ffd1dc"
+    "title" : "Undone",
+    "trailer" : "https://www.youtube.com/embed/6uWCNHQgfnc",
+    "image" : "https://m.media-amazon.com/images/I/41ahippQXOL._AC_.jpg",
+    "description" : "Undone explores the elastic nature of reality through its central character, Alma. After getting into a nearly fatal car accident, Alma discovers she has a new relationship with time and uses this ability to find out the truth about her father’s death. -Wikipedia",
+    "descrip_source" : "https://en.wikipedia.org/wiki/Undone_(TV_series)#cite_note-SeriesOrder-1",
+    "background_color" : "#517db8"
   },
 
 
